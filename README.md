@@ -1,3 +1,3 @@
 # README
 
-Mon carrousel ne fonctionne pas :( veuillez être indulgents , :hurt: sur vous
+Mon carrousel ne fonctionne pas :( veuillez être indulgents , :heart: sur vous
