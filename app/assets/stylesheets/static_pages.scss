@@ -1,0 +1,65 @@
+
+
+.tous {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.tous > * {
+  padding:5px;
+  flex: 1 100px;
+}
+
+h1{
+  align-items: center;
+  padding-left: 35%;
+  border-width:1px;
+ border-style:ridge;
+ border-color:black;
+}
+
+.resto {
+
+}
+.onglets{
+  display:flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+  border-width:1px;
+ border-style:dotted;
+ border-color:black;
+}
+.texte{
+
+}
+
+
+#he{
+  list-style-type: none;
+}
+
+#ho{
+  list-style-type: none;
+}
+
+#hi{
+  list-style-type: none;
+}
+
+#t1{
+  list-style-type: none;
+}
+
+#t2{
+  list-style-type: none;
+}
+
+#t3{
+  list-style-type: none;
+}

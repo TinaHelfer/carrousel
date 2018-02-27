@@ -1,0 +1,53 @@
+<div class="page">
+<div class="tous">
+  <div class="resto">
+    <h1> The verv'eille </h1>
+    <h2>Tous nos plats sont composés de moins de 700 calories</h2>
+  </div>
+  <div class="onglets">
+      <ul>
+         <li id="he"><h3>Présentation</h3></li>
+         <li id="ho"><h3>Menu</h3></li>
+         <li id="hi"><h3>Notre histoire</h3></li>
+       </ul>
+  </div>
+   <div class="texte">
+     <ul>
+        <li id="t1">
+          <p>A proximité de Strasbourg</p>
+          <p>Restaurant vegan de luxe</p>
+        </li>
+        <li id="t2"><p>Carpaccio de foin assaisonné au jus de méduse</p>
+           <p>Assiette de pissenlit sur lit de fenouille</p>
+           <p>Sorbet de cactus avec noix de pécan grillées au feu de roseau</p>
+        </li>
+        <li id="t3">
+          <p>Nous avons voulu nous lancer d'abord pour le fric</p>
+          <p>Puis nous avons remarqué que notre clientèle était surtout composée de stars anorexiques</p>
+          <p>On s'est donc spécialisé dans une cuisine élaborée, originale, mais surtout chère et avec le moins de quantité possible dans l'assiette</p>
+       </li>
+      </ul>
+   </div>
+ </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+$('p:eq(1)').hide();
+      $('p:eq(2)').hide();
+    $("li:eq(0)").click(function(){
+      $('p:eq(0)').show();
+      $('p:eq(1)').hide();
+      $('p:eq(2)').hide();
+    });
+    $("li:eq(1)").click(function(){
+      $('p:eq(0)').hide();
+      $('p:eq(1)').show();
+      $('p:eq(2)').hide();
+    });
+    $("li:eq(2)").click(function(){
+      $('p:eq(0)').hide();
+      $('p:eq(1)').hide();
+      $('p:eq(2)').show();
+    });
+</script>
